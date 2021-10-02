@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: teal;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.img{
+    height: 120px;
+    width: 100px;
+    border: 3px solid brown;
+    border-radius: 50%;
+    float: left;
+ 
+}
+.h-bio{
+    float: left;
+    padding: 10px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rebeccapurple;
+}
+.h-contact{
+    float: right;
+    padding: 30px;
+}
+.h-contact a{
+
+    text-decoration: none;
+    color: tomato;
+    font-weight: bold;
+
+}
+.h-contact a:hover{
+
+    text-decoration: underline;
+    color: brown;
+
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: solid 3px black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#p-sec{
+
+}
+.content{
+    margin-bottom: 30px;
+
+}
+.left{
+    width: 30%;
+    float: left;
+
+}
+.right{
+    width: 70%;
+    float: left;
+
+}
+.common-hr{
+    border: solid 1px black;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+.edu-right{
+    float: left;
+    width: 45%;
+
+}
+.edu-left{
+    float: right;
+    width: 45%;
+    
+
+}
+.f-con{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.f-con a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.f-con p{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
